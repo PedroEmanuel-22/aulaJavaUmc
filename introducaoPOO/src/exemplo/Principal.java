@@ -1,7 +1,6 @@
 package exemplo;
 
 import java.util.Scanner;
-import exemplo.Carro;
 public class Principal {
 
     public static void main(String[] args) {
