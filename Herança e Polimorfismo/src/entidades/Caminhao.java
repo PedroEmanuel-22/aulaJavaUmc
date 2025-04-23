@@ -37,7 +37,7 @@ public class Caminhao extends Veiculos{
 	"\nModelo " + getModelo()+
 	"\nAno: " + getAno()+
 	"\nAr Condicionado: "+ arCondicionado +
-	"\n Bau: "+bau;
+	"\nBau: "+bau;
 	} 
 	
 }

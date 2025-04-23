@@ -2,7 +2,7 @@ package entidades;
 
 import servico.Alugado;
 
-public class Veiculos{
+public class Veiculos implements Alugado{
 	
 	//Atributos
 	private String marca;
@@ -56,6 +56,11 @@ public class Veiculos{
 	public String toString() {
 		return "Veiculos [marca=" + marca + ", modelo=" + modelo + ", ano=" + ano + ", valorDiario=" + valorDiario
 				+ "]";
+	}
+
+	public double calcularAluguel(int dias) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 	
